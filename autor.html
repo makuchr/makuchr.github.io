@@ -37,34 +37,125 @@
                     </ul>
                 </div>
             </div>
-
         </nav>
 
 
-        <div id="main_aut">
-            <div id="photo" >
-                <img src="./assets/img/photo.jpg" id="myPhoto" >
-            </div>
+
+       
 
 
-           
-                    <div id="info_autor" >
-                        <h1 id="rmakuch">Radosław Makuch</h1>
-        
-                        <p id="oMnie">
-                            Urodziłem się w 2003 roku. Chodzę do szkoły w Krakowie. David Lynch, porównał szukanie pomysłów do wędkowania. Jeżeli ma rację, to jestem rybakiem na pełen etat. Cały czas szukam czegoś do napisania, a przy odrobinie szczęścia jeszcze zmontowania i nakręcenia. Kilka projektów udało mi się zrobić. Potrafię kręcić, pisać, montować, robić zdjęcia. Zerowy budżet nadrabiam chęciami.<br>
-                            Marzę o zdobyciu doświadczenia, które pomoże mi w przyszłości tworzyć projekty niemożliwe do zapomnienia.
-        
-                        </p>
-        
-        
-                    </div>
+
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <h1>Radosław Makuch</h1>
+                <!-- Masthead Heading-->
+            
                 
-           
+                <section class="page-section portfolio" id="portfolio" >
+                    <div class="container" >
+                
+                      
+                        <!-- Portfolio Grid Items-->
+                        
 
-           
-        </div>
+                        <div class="col-md-0 col-lg-0" style="margin-bottom:5%;">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1"  
+                        style="height:200%; width:400%">
+                            <img style="width:100%; height:400%" src="./assets/img/photo.jpg" alt="instagram.com/rmakuch_"  />
+                        
+                        </div>
 
+
+
+
+                    </div>
+                        <div class="row justify-content-center">
+                            <!-- Portfolio Item 1-->
+                            <div class="col-md-6 col-lg-4 mb-5" >
+                                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2" style="height:100%; width:900%; cursor:default; border:2px solid red; " >
+                                        <p id="oMnie" style="height:fit-content; width:fit-content; ">
+                                            Urodziłem się w 2003 roku. Niedawno napisałem maturę, tym samym kończąc krakowskie Technikum Łączności. David Lynch, porównał szukanie pomysłów do wędkowania. Jeżeli ma rację, to jestem rybakiem na pełen etat. Cały czas szukam czegoś do napisania, a przy odrobinie szczęścia jeszcze zmontowania i nakręcenia. Kilka projektów udało mi się zrobić. Kręce, montuje, robie zdjęcia, oraz animacje. Zerowy budżet nadrabiam chęciami.<br>
+                                            Marzę o zdobyciu doświadczenia, które pomoże mi w przyszłości tworzyć projekty niemożliwe do zapomnienia.
+                                        </p>                              
+                                    </div>
+                            </div>
+
+
+                           
+                            <section class="page-section portfolio" id="portfolio" style="background-color:black">
+                                <div class="container" style="margin-left:50%">
+                                    <!-- Portfolio Section Heading-->
+                                    
+                                    <!-- Portfolio Grid Items-->
+                                    <div class="row justify-content-center">
+                                        <!-- Portfolio Item 1-->
+                                        <div class="col-md-6 col-lg-4 mb-5">
+                                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" >
+                                                    
+                                                </div>
+                                                <img class="img-fluid" src="./assets/img/kimjestem.JPG" alt="" style="height: 570px;"/>
+                                            </div>
+                                        </div>
+                             
+                            </section>
+
+                            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+                                <div class="modal-dialog modal-xl" role="document">
+                                    <div class="modal-content">
+                                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                                        </button>
+                                        <div class="modal-body text-center">
+                                            <div class="container">
+                                                <div class="row justify-content-center">
+                                                    <div class="col-lg-8">
+                                                        <!-- Portfolio Modal - Title-->
+                                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">O mnie.</h2>
+                                                    
+                                                     
+                                                       
+                                                        
+                                                        <!-- Portfolio Modal - Text-->
+                                                        <p class="mb-5"></p>
+                                                        <a href="https://youtu.be/qsi88endc5E" target="_blank">
+                                                        <button class="btn btn-primary">
+                                                            <i class="fa fa-film" aria-hidden="true"></i>
+                                                          Obejrzyj
+                                                        </button>
+                                                    </a>
+                                                        <button class="btn btn-primary" data-dismiss="modal">
+                                                            <i class="fas fa-times fa-fw"></i>
+                                                            Zamknij
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                           
+
+
+
+
+                        </div>
+                    </div>
+                </section>
+
+                
+
+
+            </div>
+        </header>
+    
+             
         <footer class="footer text-center">
             <div class="container">
                 <div class="row">
@@ -79,13 +170,13 @@
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <p class="lead mb-0">
                     <a href="https://instagram.com/rmakuch_/" target="_blank">
-                        <img id="insta_jpg" src="./assets/img/insta.jpg" target="_blank">
+                        <img id="insta_jpg" src="./assets/img/insta.jpg" >
 
                     </a>
                 </p>
             </div>
            
-         </div>
+        </div>
         </div>
                          
 
@@ -93,4 +184,16 @@
                     
                 
          </footer>
+
+     
+        
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        
+    </body>
 </html>

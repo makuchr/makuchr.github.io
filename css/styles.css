@@ -505,8 +505,16 @@ mark,
 .img-fluid {
   margin-right:70px;
   max-width: 100%;
-  height: auto;
+  cursor:default;
+  
 }
+
+.img-fluid2 {
+  height:200%;
+  width:100%;
+  cursor:default;
+}
+
 
 
 
@@ -9923,6 +9931,11 @@ h3 {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
+
+
+
+
 .portfolio .portfolio-item .portfolio-item-caption {
   margin-left:45px;
   position: absolute;
