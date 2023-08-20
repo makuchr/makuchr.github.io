@@ -563,7 +563,7 @@ MODAL
   }
   
   /* The Close Button */
-  .close, #close2, #close3, #close4, #close5, #close6, #close7, #close8, #close9{
+  .close, #close2, #close3, #close4, #close5, #close6, #close7, #close8, #close9, #close10{
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -572,7 +572,7 @@ MODAL
   
   .close:hover,
   .close:focus,
-  #close, #close2, #close3, #close4, #close5, #close6, #close7, #close8, #close9 {
+  #close, #close2, #close3, #close4, #close5, #close6, #close7, #close8, #close9, #close10 {
 
     color: #000;
     text-decoration: none;
@@ -580,7 +580,7 @@ MODAL
   }
 
 
-  #myBtn1, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7 , #myBtn8, #myBtn9{
+  #myBtn1, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7 , #myBtn8, #myBtn9, #myBtn10{
     background-color:#FFBF94;
     color:white;
     border: 2.5px solid #03e9f4;
@@ -589,7 +589,7 @@ MODAL
     font-weight: bold;
   }
 
-  #myBtn1:hover, #myBtn2:hover,  #myBtn3:hover , #myBtn4:hover , #myBtn5:hover , #myBtn6:hover , #myBtn7:hover , #myBtn8:hover, #myBtn9:hover {
+  #myBtn1:hover, #myBtn2:hover,  #myBtn3:hover , #myBtn4:hover , #myBtn5:hover , #myBtn6:hover , #myBtn7:hover , #myBtn8:hover, #myBtn9:hover, #myBtn10:hover {
     background-color: #03e9f4;
     color: #050801;
     box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
