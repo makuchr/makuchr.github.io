@@ -120,6 +120,15 @@
                            </a>
                         </li>
 
+                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" >
+                          <button id="myBtn9">Zobacz</button>   
+                          <a href="img/Filmy/ARAssistant.png" data-lightbox="true">
+                             <div class="background-image-holder">
+                                <img alt="portfolio" class="background-image" src="img/Filmy/ARAssistant.png" />
+                             </div>
+                          </a>
+                       </li>
+
                         
 
                      
@@ -201,6 +210,19 @@
                          </div>
 
 
+                         <div id="myModal9" class="modal">
+                          <!-- ARAssitant -->
+                          <div class="modal-content">
+                            <span id="close9">&times;</span>
+                            <a href="https://youtu.be/8SFRFNgtUFc" style=" font-size:50px; color:#03e9f4; text-align:center;" target="_blank">Zobacz</a>
+                            <br>
+                            <p style=" font-size:15px; color:blueviolet; ">Materiał reklamujący aplikację rozszerzonej rzeczywistości</p>
+                            <p class="info"><b>AR Assistant.</b><br>Film zmontowany przeze mnie.<br>
+                            </p>
+                          </div>   
+                        </div>
+
+
 
 
 
@@ -230,6 +252,7 @@
          var modal6 = document.getElementById("myModal6");    
          var modal7 = document.getElementById("myModal7");   
          var modal8 = document.getElementById("myModal8");  
+         var modal9 = document.getElementById("myModal9");  
             
          // Get the button that opens the modal
          var btn1 = document.getElementById("myBtn1");  
@@ -240,6 +263,7 @@
          var btn6 = document.getElementById("myBtn6"); 
          var btn7 = document.getElementById("myBtn7"); 
          var btn8 = document.getElementById("myBtn8"); 
+         var btn9 = document.getElementById("myBtn9"); 
 
          //var abc = document.getElementsByClassName("Butonik");  
          // Get the <span> element that closes the modal
@@ -251,6 +275,7 @@
          var span6 = document.getElementById("close6");   
          var span7 = document.getElementById("close7");   
          var span8 = document.getElementById("close8");  
+         var span9 = document.getElementById("close9");  
 
          
          // When the user clicks the button, open the modal 
@@ -375,8 +400,6 @@
          }
 
 
-
-
          btn8.onclick = function() {
            modal8.style.display = "block";
            console.log("Klikniety");
@@ -392,6 +415,25 @@
              modal8.style.display = "none";
            }
          }
+
+
+
+         btn9.onclick = function() {
+           modal9.style.display = "block";
+           console.log("Klikniety");
+         }   
+          // When the user clicks on <span> (x), close the modal
+            span9.onclick = function() {
+           modal9.style.display = "none";
+           console.log("Klikniety");
+         }        
+         // When the user clicks anywhere outside of the modal, close it
+         window.onclick = function(event) {
+           if (event.target == modal9) {
+             modal9.style.display = "none";
+           }
+         }
+
 
 
 
