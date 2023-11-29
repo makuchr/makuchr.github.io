@@ -46,15 +46,7 @@
                   <div class="lightbox-grid square-thumbs" >
                      <ul class="portfolio-items list-unstyled" id="grid">
 
-                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" >
-                           <button id="myBtn1b">Przeczytaj</button>     
-                           <a href="img/Teksty/wiedzma.jpg" data-lightbox="true">   
-                              <div class="background-image-holder">       
-                                 <img alt="portfolio" class="background-image" src="img/Teksty/wiedzma.jpg" />
-                              </div>
-                           </a>
-                        </li>
-
+                       
                         <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" >
                            <button id="myBtn2b">Przeczytaj</button>   
                            <a href="img/Teksty/cowboy.jpg" style="width:50%" data-lightbox="true">
@@ -107,18 +99,7 @@
 
 
                      
-                        <div id="myModal1" class="modal">
-                           <!-- Wiedzma -->
-                           <div class="modal-content">
-                             <span class="close">&times;</span>
-                             <a href="./pdf/Wiedzma.pdf" style=" font-size:50px; color:#03e9f4; text-align:center;" target="_blank">Przeczytaj</a>
-                             <p class="info"><b>Wiedźma.</b><br> Krótki scenariusz mojego autorstwa.</p>
-                             <p class="info2">Nie jestem autorem grafiki. Autor: Anna Milewska "My soul is green"</p>
-
-                             
-                             
-                           </div>   
-                         </div>
+                      
 
 
                          <div id="myModal2" class="modal">
@@ -203,7 +184,7 @@
       <script src="js/script.js"></script>
       <script>
          // Get the modal
-         var modal1 = document.getElementById("myModal1");      
+  
          var modal2 = document.getElementById("myModal2");     
          var modal3 = document.getElementById("myModal3");    
          var modal4 = document.getElementById("myModal4");    
@@ -233,23 +214,7 @@
          var span7 = document.getElementById("close7");   
          var span8 = document.getElementById("close8");  
 
-         
-         // When the user clicks the button, open the modal 
-         btn1.onclick = function() {
-           modal1.style.display = "block";
-           console.log("Klikniety");
-         }   
-          // When the user clicks on <span> (x), close the modal
-            span1.onclick = function() {
-           modal1.style.display = "none";
-           console.log("Klikniety");
-         }        
-         // When the user clicks anywhere outside of the modal, close it
-         window.onclick = function(event) {
-           if (event.target == modal1) {
-             modal1.style.display = "none";
-           }
-         }
+      
 
 
 
