@@ -111,14 +111,7 @@
                            </a>
                         </li>
                         
-                        <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" >
-                           <button id="myBtn7">Zobacz</button>   
-                           <a href="img/Filmy/PKO.png" data-lightbox="true">
-                              <div class="background-image-holder">
-                                 <img alt="portfolio" class="background-image" src="img/Filmy/PKO.png" />
-                              </div>
-                           </a>
-                        </li>
+                      
 
                         <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" >
                            <button id="myBtn8">Zobacz</button>   
@@ -229,16 +222,7 @@
                          </div>
 
 
-                         <div id="myModal7" class="modal">
-                           <!-- PKO BACKSTAGE -->
-                           <div class="modal-content">
-                              <span id="close7">&times;</span>
-                             <a href="https://youtu.be/_wvm9uiEw90" style=" font-size:50px; color:#03e9f4; text-align:center;" target="_blank">
-                              <img style="width:40px; height:40px" src="img/hand_ico.jpg" >
-                              Zobacz</a>
-                             <p class="info"><b>PKO Backstage.</b><br>Film zmontowany, oraz nakręcony przeze mnie. <br>Produkcja: <b><i>creativestudio.</i></b></p>
-                           </div>   
-                         </div>
+                        
 
                          <div id="myModal8" class="modal">
                            <!-- Pszczyna -->
@@ -294,7 +278,7 @@
          var modal4 = document.getElementById("myModal4");    
          var modal5 = document.getElementById("myModal5");    
          var modal6 = document.getElementById("myModal6");    
-         var modal7 = document.getElementById("myModal7");   
+
          var modal8 = document.getElementById("myModal8");  
          var modal9 = document.getElementById("myModal9");  
          var modal10 = document.getElementById("myModal10");   
@@ -306,7 +290,7 @@
          var btn4 = document.getElementById("myBtn4"); 
          var btn5 = document.getElementById("myBtn5"); 
          var btn6 = document.getElementById("myBtn6"); 
-         var btn7 = document.getElementById("myBtn7"); 
+
          var btn8 = document.getElementById("myBtn8"); 
          var btn9 = document.getElementById("myBtn9"); 
          var btn10 = document.getElementById("myBtn10"); 
@@ -319,7 +303,7 @@
          var span4 = document.getElementById("close4");   
          var span5 = document.getElementById("close5");   
          var span6 = document.getElementById("close6");   
-         var span7 = document.getElementById("close7");   
+  
          var span8 = document.getElementById("close8");  
          var span9 = document.getElementById("close9");  
          var span10 = document.getElementById("close10");  
@@ -429,22 +413,7 @@
 
 
 
-         
-         btn7.onclick = function() {
-           modal7.style.display = "block";
-           console.log("Klikniety");
-         }   
-          // When the user clicks on <span> (x), close the modal
-            span7.onclick = function() {
-           modal7.style.display = "none";
-           console.log("Klikniety");
-         }        
-         // When the user clicks anywhere outside of the modal, close it
-         window.onclick = function(event) {
-           if (event.target == modal7) {
-             modal7.style.display = "none";
-           }
-         }
+        
 
 
          btn8.onclick = function() {
