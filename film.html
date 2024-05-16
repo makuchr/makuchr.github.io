@@ -131,6 +131,15 @@
                           </a>
                        </li>
 
+                       <li class="col-md-4 col-sm-12 col-xs-12 no-gutter" >
+                        <button id="myBtn11">Zobacz</button>   
+                        <a href="img/Filmy/EPICVR.jpg" data-lightbox="true">
+                           <div class="background-image-holder">
+                              <img alt="portfolio" class="background-image" src="img/Filmy/EPICVR.jpg" />
+                           </div>
+                        </a>
+                     </li>
+
                         
 
                      
@@ -250,6 +259,21 @@
                           </div>   
                         </div>
 
+                        
+                         <div id="myModal11" class="modal">
+                          <!-- EPICVR Ciekawostki -->
+                          <div class="modal-content">
+                            <span id="close11">&times;</span>
+                            <a href="https://www.youtube.com/playlist?list=PLupAHyUCwGx29xv30XVPQt0It_BPjnzPl" style=" font-size:50px; color:#03e9f4; text-align:center;" target="_blank">
+                              <img style="width:40px; height:40px" src="img/hand_ico.jpg" >
+                              Zobacz</a>
+                            <br>
+                            <p style=" font-size:15px; color:blueviolet; ">Ciekawostki VR i AR dla firmy EpicVR</p>
+                            <p class="info"><b>Ciekawostki AR i VR </b><br>Film zmontowany przeze mnie.<br><br>Dla: <b><i>EpicVR</i></b>
+                            </p>
+                          </div>   
+                        </div>
+
 
 
 
@@ -282,6 +306,7 @@
          var modal8 = document.getElementById("myModal8");  
          var modal9 = document.getElementById("myModal9");  
          var modal10 = document.getElementById("myModal10");   
+         var modal11 = document.getElementById("myModal11");   
 
          // Get the button that opens the modal
          var btn1 = document.getElementById("myBtn1");  
@@ -294,6 +319,7 @@
          var btn8 = document.getElementById("myBtn8"); 
          var btn9 = document.getElementById("myBtn9"); 
          var btn10 = document.getElementById("myBtn10"); 
+         var btn11 = document.getElementById("myBtn11"); 
 
          //var abc = document.getElementsByClassName("Butonik");  
          // Get the <span> element that closes the modal
@@ -307,6 +333,7 @@
          var span8 = document.getElementById("close8");  
          var span9 = document.getElementById("close9");  
          var span10 = document.getElementById("close10");  
+         var span11 = document.getElementById("close11"); 
 
          
          // When the user clicks the button, open the modal 
@@ -464,6 +491,24 @@
          window.onclick = function(event) {
            if (event.target == modal10) {
              modal10.style.display = "none";
+           }
+         }
+
+
+
+         btn11.onclick = function() {
+           modal11.style.display = "block";
+           console.log("Klikniety");
+         }   
+          // When the user clicks on <span> (x), close the modal
+            span11.onclick = function() {
+           modal11.style.display = "none";
+           console.log("Klikniety");
+         }        
+         // When the user clicks anywhere outside of the modal, close it
+         window.onclick = function(event) {
+           if (event.target == modal11) {
+             modal11.style.display = "none";
            }
          }
 
