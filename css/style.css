@@ -12,6 +12,14 @@ body {
 html {
     overflow-x: hidden;
 }
+
+.logo1{
+    width:3%;
+    margin-top:3px;
+    border: black 2px solid;
+}
+
+
 h1,
 h2,
 h3,
