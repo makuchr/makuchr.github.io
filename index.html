@@ -31,38 +31,25 @@
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
-  <style>
+<style>
 .video-wrapper {
-  position: absolute; /* lub relative jeśli chcesz */
-  top: 0; left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   z-index: 0;
 }
 
-
-.video-placeholder {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("assets/img/LS_EyeChamber.screen1.png");
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-}
-
 .video-wrapper iframe {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100vw;          /* pełna szerokość ekranu */
-  height: calc(100vw * 9 / 16); /* proporcjonalna wysokość 16:9 */
-  min-height: 100vh;     /* minimum wysokości ekranu, jeśli 16:9 wysokość jest mniejsza niż ekran */
+  width: 300vw;    /* bardzo szerokie, by na pewno przyciąć u góry i dołu */
+  height: 200vh;   /* bardzo wysokie, żeby rozciągnąć */
   transform: translate(-50%, -50%);
   pointer-events: none;
-  z-index: 2;
 }
 </style>
   <!-- =======================================================
@@ -102,28 +89,21 @@
 
 
 <div class="video-wrapper">
-  <div class="video-placeholder"></div>
   <iframe
-    src="https://player.vimeo.com/video/1105475473?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1&playsinline=1"
+    src="https://player.vimeo.com/video/1105475473?background=1&autoplay=1&loop=1&muted=1&playsinline=1"
     frameborder="0"
-    allow="autoplay; fullscreen"
+    allow="autoplay; fullscreen; picture-in-picture"
     allowfullscreen
+    muted
   ></iframe>
 </div>
+      
 
 
 
 
           <!--  
 
-
-          
-  <div class="video-wrapper">
-    <video autoplay muted loop playsinline>
-      <source src="assets/img/portfolio/OPENING.mp4" type="video/mp4">
-      Twoja przeglądarka nie obsługuje tagu video.
-    </video>
-  </div>
 
 
  <img src="assets/img/LS_EyeChamber.screen1.png" alt="">  
